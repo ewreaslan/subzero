@@ -15,7 +15,7 @@ class ScanConfig:
     concurrency: int = 50
     min_verdict: str = "INVESTIGATE"
     evidence: str = "full"
-    explain: bool = False
+    explain: bool = True
 
 
 @dataclass
