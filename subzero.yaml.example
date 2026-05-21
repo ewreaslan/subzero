@@ -1,0 +1,14 @@
+scan:
+  profile: strict
+  concurrency: 40
+  min_verdict: INVESTIGATE
+  evidence: full
+  explain: true
+
+enumerate:
+  sources:
+    - crtsh
+    - hackertarget
+    - shodan
+    - censys
+    - fofa
