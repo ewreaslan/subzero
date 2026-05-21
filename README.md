@@ -37,6 +37,8 @@ subzero enumerate example.org -o passive.txt
 subzero scan -f passive.txt -o report.json
 ```
 
+![QUICK START](screenshots/1.png)
+
 ## Commands
 
 ## `scan`
