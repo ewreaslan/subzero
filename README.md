@@ -21,12 +21,6 @@ Install:
 pip install -e .
 ```
 
-Dev install:
-
-```bash
-pip install -e .[dev]
-```
-
 ## Quick Start
 
 ```bash
