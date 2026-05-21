@@ -65,6 +65,8 @@ subzero scan -f subdomains.txt --profile balanced --evidence full -o report.md
 subfinder -d example.org -silent | subzero scan - --profile fast --min-verdict POTENTIAL
 ```
 
+![SCAN](screenshots/2.png)
+
 ## `verify`
 
 ```bash
@@ -76,6 +78,8 @@ Performs second-pass checks:
 - dig-style CNAME re-check
 - two-resolver NXDOMAIN re-check
 - curl-style HTTP status/body re-check
+
+![VERIFY](screenshots/6.png)
 
 ## `dns`
 
@@ -91,6 +95,8 @@ Shows:
 - NXDOMAIN votes
 - SOA mname / negative TTL
 - DNSSEC support signal
+
+![DNS](screenshots/4.png)
 
 ## `enumerate`
 
@@ -111,12 +117,16 @@ Duplicate handling:
 - Subzero merges all source results into a unique set.
 - Duplicate subdomains across sources are automatically removed.
 
+![ENUMERATE](screenshots/5.png)
+
 ## `feedback`
 
 ```bash
 subzero feedback scanme.example.org --service "Amazon S3" --verdict VULNERABLE --label tp
 subzero feedback scanme.example.org --service "Netlify" --verdict POTENTIAL --label fp
 ```
+
+![FEEDBACK](screenshots/7.png)
 
 ## Explain Mode
 
