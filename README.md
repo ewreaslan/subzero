@@ -1,6 +1,6 @@
 # Subzero
 
-Subzero is an async subdomain takeover scanner with layered validation, evidence-first output, and configurable workflows.
+Subzero is an async subdomain takeover scanner with layered validation, evidence-first output and configurable workflows.
 
 This version adds:
 
